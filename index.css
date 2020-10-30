@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: #1b1d22;
+  font-family: "Poppins";
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 45px;
+}
+
+#nav-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav-links li {
+  display: inline;
+  color: white;
+  font-size: 20px;
+  padding: 25px;
+  transition: 200ms ease-in;
+}
+
+#nav-links li:hover {
+  color: rgb(255, 100, 39);
+  cursor: pointer;
+}
+
+.base-button {
+  width: 400px;
+  height: 90px;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+#buttons-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.annually-btn {
+  background-color: #c35500;
+  color: white;
+}
+
+.monthly-btn {
+  background-color: #3f3f3f7c;
+  color: rgb(138, 138, 138);
+}
+
+#pricing-card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.base-card {
+  width: 325px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.63);
+  margin: 25px;
+}
+
+.card-header {
+  display: flex;
+  padding: 15px;
+}
+
+.header-title {
+  padding-left: 20px;
+}
+
+.header-title h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.header-title small {
+  color: grey;
+  font-size: 16px;
+}
+
+.card-content ul {
+  list-style: none;
+  padding: 0px 25px;
+}
+
+.card-content ul li {
+  display: flex;
+}
+.card-content ul li span {
+  padding-left: 15px;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .price {
+  display: flex;
+  color: white;
+  font-size: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.purchase-btn {
+  width: 200px;
+  height: 55px;
+  background-color: #ff686b;
+  border-radius: 10px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
